@@ -104,4 +104,3 @@ This will build the image and start the app on `http://localhost:8000`.
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-# FlaskAuthDemo

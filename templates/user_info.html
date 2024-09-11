@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h2>User Information</h2>
+  <table border="1" cellpadding="5" cellspacing="0">
+    <tr>
+      <th>Name</th>
+      <td>{{ user.name }}</td>
+    </tr>
+    <tr>
+      <th>Age</th>
+      <td>{{ user.age }}</td>
+    </tr>
+    <tr>
+      <th>Experience</th>
+      <td>{{ user.experience }}</td>
+    </tr>
+    <tr>
+      <th>Username</th>
+      <td>{{ user.username }}</td>
+    </tr>
+  </table>
+{% endblock %}
